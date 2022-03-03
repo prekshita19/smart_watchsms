@@ -1,0 +1,85 @@
+.container {
+  margin: 2%;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  min-height: 600px;
+}
+
+.row {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 45px;
+  color: white;
+  font-weight: bold;
+}
+
+.container > :nth-child(1) {
+  background-color: rgb(37, 35, 35);
+}
+
+.container > :nth-child(2) {
+  /* background-color:rgb(0, 0, 0); */
+  color: black;
+}
+
+#outersquare {
+  background-color: rgba(85, 83, 83, 0.733);
+  height: 300px;
+  width: 250px;
+  border-radius: 70px;
+  font-size: 15px;
+  /* border: 1px solid red; */
+}
+
+#innersquare {
+  background-color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 275px;
+  width: 250px;
+  border-radius: 75px;
+  /* border: 1px solid blue; */
+}
+
+#watchheader {
+  font-size: 12px;
+  color: white;
+}
+
+/* largetimedate,day{} */
+
+#timenow {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 75px;
+  color: white;
+  font-size: 3em;
+  /* border: 1px solid white; */
+}
+
+#daytoday {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 25px;
+  color: white;
+  font-size: 1.2em;
+  /* border: 1px solid white; */
+}
+
+#body1 {
+  padding: 0px;
+  margin: 0px;
+  /* border: 1px solid white; */
+  /* height: 100px; */
+}
+
+#images {
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  /* padding: 33%; */
+}

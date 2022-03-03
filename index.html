@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Watch SMS</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">SmartWatch</div>
+      <div class="row">
+        <div id="outersquare">
+          <div id="innersquare">
+            <div id="watchheader">
+              <p id="smalltime"></p>
+            </div>
+            <div id="body1">
+              <div id="largetimedate">
+                <p id="timenow"></p>
+              </div>
+              <div id="day">
+                <p id="daytoday"></p>
+              </div>
+            </div>
+            <div id="images">
+              <div><i class="fas fa-comments" id="comments" onclick="displaymessages()"></i></div>
+              <div><i class="fas fa-music" id="music"></i></div>
+              <div><i class="far fa-clock" id="clock"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
